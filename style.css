@@ -1,0 +1,72 @@
+:root {
+    --color-card: rgb(125, 85, 162);
+    --color-text-comment: #e0dcdc;
+    --grand-tire :rgb(54, 21, 85) ;
+    --container : rgba(102, 102, 103, 0.511)
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.titre-para{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.titre{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:var(--grand-tire);
+font-size: 60px;
+width: 350px;
+height: auto;
+}
+.para{
+    color: var(--color-card);
+    font-size: 30px;
+    width: 420px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ensemble{
+    display: flex;
+    position:relative;
+    justify-content: space-around;
+    align-items: end;
+    width: 100%;
+    height: auto;
+
+}
+.container{
+    background-color: var(--container);
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+.container:nth-child(2){
+margin-left: 20px;
+}
+.container:nth-child(3){
+margin-left: 40px;
+}
+.note{
+    
+}
+.etoile{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.text h5{
+   color: var(--color-card);
+   margin-right: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
