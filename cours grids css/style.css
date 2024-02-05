@@ -105,7 +105,5 @@ body{
     justify-content: venter;
     align-items: center;
     
-    .text{
-        text-overflow: ellipsis;
-    }
+   
   }
